@@ -1,0 +1,34 @@
+import java.util.ArrayList; 
+
+// <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+// #[regen=yes,id=DCE.DAF65811-FD55-C126-B584-3FBE725F1A79]
+// </editor-fold> 
+public class Cliente {
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.928B6810-45D1-F3FC-EF03-DBD9F5B5011C]
+    // </editor-fold> 
+    private ArrayList<Pedido> mPedido;
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.DDF5BDB6-3FFA-C1CA-1EDF-62E8264DA05E]
+    // </editor-fold> 
+    public Cliente () {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.1955220B-20E8-39F7-8342-E5C8449416FF]
+    // </editor-fold> 
+    public ArrayList<Pedido> getPedido () {
+        return mPedido;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.BD92BB37-61C0-2BBD-1D1A-67CD8E35C1F5]
+    // </editor-fold> 
+    public void setPedido (ArrayList<Pedido> val) {
+        this.mPedido = val;
+    }
+
+}
+

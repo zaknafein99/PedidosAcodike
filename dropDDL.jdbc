@@ -1,0 +1,9 @@
+ALTER TABLE pedidos.pedidos DROP FOREIGN KEY FK_pedidos_id_movil
+ALTER TABLE pedidos.pedidos DROP FOREIGN KEY FK_pedidos_movilasignado
+ALTER TABLE pedidos.pedidos DROP FOREIGN KEY FK_pedidos_idcliente
+ALTER TABLE pedidos.pedidos DROP FOREIGN KEY FK_pedidos_id_articulo
+ALTER TABLE pedidos.pedidos DROP FOREIGN KEY FK_pedidos_id_movil2
+DROP TABLE pedidos.pedidos
+DROP TABLE pedidos.moviles
+DROP TABLE pedidos.cliente
+DROP TABLE pedidos.articulos
